@@ -5,9 +5,8 @@ This repository contains everything from **data preprocessing**, **visualization
 
 ## 📂 Contents
 
-- `data.csv` – Real-world dataset of 20,000+ houses with features like area, number of rooms, neighborhood, etc.
+- `data.csv` – Real-world dataset of 20,000+ houses with features like area, number of rooms, house's age, etc.
 - `main.ipynb` – Jupyter Notebook containing all code for data cleaning, visualizations, model implementation, training, and testing.
-- Neural network code built purely with **NumPy** – no external ML libraries involved.
 
 ---
 
@@ -42,23 +41,13 @@ In this project, I used a neural network because:
    - Uses **ReLU activation**, **mean squared error (MSE)** loss, and **gradient descent**
 
 4. **Model Training**
-   - Trained the model on the cleaned dataset for 1000+ epochs
+   - Trained the model on the cleaned dataset for 4200 epochs
    - Tracked training loss over time
 
 5. **Evaluation & Results**
    - Achieved a final loss around **0.3**, which corresponds to **~70% accuracy**
    - Visualized model performance with a **bar plot of prediction errors**
    - The model successfully learned the difference between **cheap** and **expensive** houses based on their features
-
----
-
-## 📊 Example: Correlation Heatmap
-
-One of the early visualizations in the project was this heatmap, showing how strongly each feature correlates with house price:
-
-> *[Insert heatmap screenshot if applicable]*
-
-This helped guide feature selection and showed how much each attribute (like square footage or location) matters.
 
 ---
 
